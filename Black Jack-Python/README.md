@@ -1,1 +1,1 @@
-## Juego programado con Python aplicando OPP 
+## Black Jack programado con Python aplicando OPP 
