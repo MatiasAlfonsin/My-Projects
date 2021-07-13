@@ -1,0 +1,456 @@
+/*Inicio Header*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@font-face{
+    font-family: "WebSymbolsRegular";
+    src: url("./fonts/websymbols-regular-webfont");
+    src: url("./fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+            url("./fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg"),
+            url("./fonts/websymbols-regular-webfont.ttf") format("truetype"),
+            url("./fonts/websymbols-regular-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background: #E2EEED;
+    border-bottom: 1px solid #ADC6C3;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+}
+
+.body2{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+}
+
+.body2__logo{
+    padding: 30px 20px 30px 20px;
+    float: left;
+}
+
+header div img{
+    height: 40px;
+    float: left;
+}
+
+header ul{
+    margin-left: 10px;
+    float: left;
+}
+
+header li{
+    list-style: none;
+    float: left;
+    margin: 42px 42px 0px 42px;
+}
+
+header a{
+    float: left;
+    color: #4D968B;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 100ms;
+}
+
+header nav ul li a:hover{
+    color: #3e635d;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #3e635d;
+    text-shadow: 0px 0px 1px #3e635d;
+}
+
+.acceso{
+    float: right;
+    padding-top: 30px;
+}
+
+.acceso a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 9px 17px 9px 17px;
+    color: #4f9288;
+    border: 2px solid #659c93;
+    transition: all 300ms;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.acceso a:hover{
+    background: #4FBCA2;
+    border: none;
+    color: white;
+    padding: 12px 32px 12px 17px;
+}
+
+.acceso span{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: -27px;
+    margin-top: 8.5px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: all 300ms;
+    font-weight: lighter;
+}
+
+.acceso a:hover ~ span{
+    color: white;
+    transform: translateX(0%);
+    opacity: 1;
+    
+}
+/*Fin del Header*/
+
+.clearfix{
+    clear: both;
+    float:none;
+}
+/*****Inicio del Main******/
+/******Inicio de seccion 1*****/
+#main{
+    margin-top: 100px;
+}
+#main > div:first-child{
+    background: linear-gradient(to top, #95CBB8 30%, #C3DEDB);
+    width: 100%;
+    box-shadow: 0px 2px 3px #d3c8c8 inset;
+    float: left;
+    transform: skewY bottom(10deg);
+}
+.section1{
+    padding-top: 60px;
+}
+
+.body2 h1{
+    float: left;
+    width: 45%;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 28px;
+}
+
+.img{
+    margin-top: 22px;
+}
+
+.img img{
+    height: 45%;
+    width: 45%;
+    float: right;
+}
+
+.section1 span img{
+    height: 30%;
+    width: 30%;
+    float: right;
+    margin-right: 7.5%;
+    margin-top: 25px;
+}
+/*Final de seccion 1*/
+
+/*Inicio de seccion 2*/
+
+#section2{
+    margin-top: 150px;
+}
+
+.body2 > h2:first-child{
+    color: #333333;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+#section2 .body2 #subtitle{
+    text-align: center;;
+    color: #777;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.change{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin: 2.5%;
+}
+
+.video{
+    width: 45%;
+    height: 45%;
+    margin: 2.5%;
+    float: left;
+}
+
+.video video:focus{
+   outline: 0;
+}
+
+#fuertafitp{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 55%;
+    box-shadow: 0px 12px 10px -6px rgb(0 0 0 / 25%),  0px -6px 6px -6px rgb(0 0 0 / 25%),  6px 0px 6px -6px rgb(0 0 0 / 25%)
+              ,-6px 0px 6px -6px rgb(0 0 0 / 25%);
+    height: 360px;
+    margin-bottom: 50px;
+}
+
+#fuertafitp h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    padding-top: 30px;
+    text-align: center;
+    font-weight: normal;
+}
+
+#fuertafitp > h2 + p{
+    text-align: center;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+#fuertafitp > span{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#fuertafitp > span + p{
+    text-align: center;
+    color: #555;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+#fuertafitp .acceso{
+    float: none;
+}
+
+#fuertafitp .acceso a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 22.5%;
+}
+
+#fuertafitp .acceso a:hover{
+    width: 25%;
+}
+
+#fuertafitp .acceso a ~ span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 307px;
+    margin-top: -31.5px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: all 300ms;
+    color: #555;
+}
+
+#fuertafitp .acceso a:hover ~ span{
+    color: white;
+    transform: translateX(0%);
+    opacity: 1;
+    font-weight: lighter;
+    
+}
+/*Final de seccion 2*/
+
+/*Inicio de seccion 3*/
+
+#section3{
+    margin-top: 80px;
+}
+
+.left{
+    width: 100%;
+    background: #87bdaa;
+    padding-top: 60px;
+    border-right: 250px solid #E2EEED;;
+    height: 900px;
+}
+
+.left .body2 h3{
+    color: #E3F3EA;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    line-height: 42px;
+    margin-bottom: 40px;
+}
+
+#section3 #absolute > span:first-child img{
+    height: 40%;
+    width: 40%;
+    float: right;
+}
+
+#section3 #absolute span:nth-child(3) img{ 
+    height: 26%;
+    width: 26%;
+    float: right;
+    margin-right: 8%;
+    margin-top: 2.5%;
+}
+
+#section3 .body2 p{
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #ffffff;
+    width: 54%;
+    margin-left: 10%;
+}
+
+#section3 .body2 p:first-child{
+    font-size: 15px;
+    color: #E3F3EA;
+    text-align: center;
+    letter-spacing: 0.4px;
+}
+
+#section3 #absolute{
+    position: absolute;
+    margin-right: 15%;
+    top: 2130px
+}
+
+#section3 .body2 .acceso{
+    float: left;
+    margin-left: 10%;
+    width: 54%;
+    margin-top: -20px;
+}
+
+#section3 .body2 .acceso a{
+    border: 2px solid white;
+    color: white;
+    text-transform: uppercase;
+    line-height: 35px;
+    padding: 5px 70px 5px 22px;
+    display: block;
+    font-size: 20px;
+}
+
+#section3 .body2 .acceso a:hover{
+    background: #a7cfc1;
+    padding-left: 15px;
+}
+
+#section3 .body2 .acceso span{
+    opacity: 0;
+    left: 340px;
+    top: 2688px;
+    transform: translateX(-50px);
+}
+
+#section3 .body2 .acceso a:hover ~ span{
+    color: white;
+    transform: translateX(0px);
+    opacity: 1;
+    
+}
+/*Final de seccion 3*/
+
+/*****Inicio del footer*****/
+footer{
+    width: 100%;
+    background: #171717;
+}
+
+footer .body2{
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+}
+#derechos_reservados{
+    color: #5E6266;
+    float: left;
+    font-size: 14.5px;
+    margin-right: 10px;
+}
+
+footer .body2 ul li{
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+footer .body2 ul li a{
+    color: #BBBBBB;
+    font-size: 14px;
+    
+}
+/*     color del footer #171717   /*
+
+/*****Final del footer*****/
+
+/*****Inicio del Div final*****/
+#final{
+    width: 100%;
+    height: 200px;
+    position: fixed;
+    z-index: 500;
+}
+#final1 a{
+    display: block;
+    font-family: "WebSymbolsRegular";
+    width: 200px;
+    height: 60px;
+    color: white;
+    position: fixed;
+    z-index: 500;
+}
+#final1 .twitter{
+    background: skyblue;
+}
+#final1 .facebook{
+    background: blue;
+}
+#final1 .youtube{
+    background: red;
+}
+#final1 .instagram{
+    background: yellow;
+}
+#final1 .button{
+    background: #ccc;
+}
+
+
+/*****Final del div final*****/
+
+/*****   REVISAR POR QUE NO SE VEN LOS DIVS ESTOS CUANDO PONGO EL POSITON FIXED/******
+
+/*****   PARA HACER LA ANIMACION DE TOCAR E BOTON Y QUE SE DESPLIGUE LAS OPCIONES:
+DEBO HACER EL DIV CHIQUITITO CON EL BOTON ESE, PERO ADEMAS HACER ESE OTRO DIV GRANDE, PONERLE UN POSITION ABSOLUTE
+ASI NO RESPETA LAS MEDIDAS DEL DIV CHIQUITO, Y ACOMODARLO TOOD, ENTONCES CUANDO LE HAGAN UN :PLACERHOLDER O UN :FOCUS
+AL DIV CHIQUITO, QUE AHI APAREZCA EL GRANDE, PODRIA SER UNA OPCION 
+/******
+
+
+/*Final del Main*/
