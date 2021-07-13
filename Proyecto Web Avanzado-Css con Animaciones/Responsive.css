@@ -1,0 +1,40 @@
+@media (max-width: 1240px){
+    .wrap{
+        width: 90%;
+    }
+    .card{
+        width: 16%;
+        margin-left: 25.5px;
+    }
+    #partone{
+        width: 25%;
+    }
+    #parttwo{
+        width: 25%;
+    }
+    #partthree{
+        width: 25%;
+    }
+    footer .wrap span img{
+        height: 100%;
+        width: 15%;
+    }
+}
+@media (max-width: 1210px){
+    .card{
+        width: 16%;
+        margin-left: 24.5px;
+    }
+}
+@media (max-width: 1180px){
+    .card{
+        width: 16%;
+        margin-left: 23.5px;
+    }
+}
+@media (max-width: 1053px){
+    .card{
+        width: 14%;
+        margin-left: 23.5px;
+    }
+}

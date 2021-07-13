@@ -167,8 +167,8 @@ class Black_jack(object):
 def main():
     juego = Black_jack()
     juego.agregar_jugador(Humano("Matias", 100))
-    juego.agregar_jugador(Humano("Pirulo",100))
-    juego.agregar_jugador(Computadora("Compu Uno", 100))
+    juego.agregar_jugador(Humano("Candela",100))
+    # juego.agregar_jugador(Computadora("Compu Uno", 100))
     # juego.agregar_jugador(Computadora("Compu Dos",100))
     juego.jugar()
 
